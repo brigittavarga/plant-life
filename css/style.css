@@ -196,5 +196,18 @@ div.slides:hover img {
 }
 
 .profile-image:hover {
-    transform: translate(2%);
+    transform: translate(2.3%);
+}
+
+.profile-img-container {
+    position:relative;
+}
+
+.overlay {
+    height:250px;
+    background-color:#00b98d;
+    position:absolute;
+    top: 8px;
+    left: 8px;
+    z-index:-1;
 }
